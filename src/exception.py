@@ -24,8 +24,7 @@ if __name__ == "__main__":
     try:
         a = 1 / 0
     except Exception as exc:
-        logging.info("Divide for Zero")
+        logging.info("Divide for Zero, put atetention")
         raise CustomExceptions(exc,sys)
-"""
-    
+"""    
         
